@@ -15,4 +15,4 @@ services:
       - ../:/summarizer
     runtime: nvidia
 
-    command: tail /dev/null -f
+    command: python /summarizer/app.py
